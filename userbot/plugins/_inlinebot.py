@@ -12,7 +12,7 @@ from telethon import events, functions, version
 
 
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "𝙳𝙴𝚅𝙸𝙻"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "ARCANE"
 
 
 
@@ -62,7 +62,7 @@ async def cmd_list(event):
 
                         allow_cache=False,
 
-                        caption="COMMANDS In 𝙳𝙴𝚅𝙸𝙻 𝚄𝚂𝙴𝚁𝙱𝙾𝚃",
+                        caption="COMMANDS In ARCANE 𝚄𝚂𝙴𝚁𝙱𝙾𝚃",
 
                         reply_to=reply_to_id
 
@@ -94,7 +94,7 @@ async def cmd_list(event):
 
         else:
 
-            help_string = f"""Userbot Helper.. 𝗣𝗥𝗢𝗩𝗜𝗗𝗘𝗗 𝗕𝗬 𝗗𝗘𝗩𝗜𝗟 𝗨𝗦𝗘𝗥𝗕𝗢𝗧 \n
+            help_string = f"""Userbot Helper.. 𝗣𝗥𝗢𝗩𝗜𝗗𝗘𝗗 𝗕𝗬 𝘼𝙍𝘾𝘼𝙉𝙀 𝗨𝗦𝗘𝗥𝗕𝗢𝗧 \n
 
 Userbot Helper to reveal all the commands\nDo .help plugin_name for commands, in case popup doesn't appear."""
 
@@ -172,7 +172,7 @@ async def _(event):
 
         help_string = CMD_LIST[plugin_name].doc
 
-        unload_string = f"Use .unload {plugin_name} to remove this plugin.\n           Â© 𝙳𝙴𝚅𝙸𝙻 𝙱𝙾𝚃"
+        unload_string = f"Use .unload {plugin_name} to remove this plugin.\n           Â© Arcane 𝙱𝙾𝚃"
 
         
 
